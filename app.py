@@ -7,7 +7,7 @@ client = OpenAI(
 
 completion = client.chat.completions.create(
   model="meta/llama3-70b-instruct",
-  messages=[{"role":"user","content":"hello"}],
+  messages=[{"role":"user","content":"Tell me about AIOps in Telecom"}],
   temperature=0.5,
   top_p=1,
   max_tokens=1024,
